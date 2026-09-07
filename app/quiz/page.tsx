@@ -21,6 +21,8 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function QuizPage() {
   const [hasAccess, setHasAccess] = useState<boolean | null>(null);
+  // mode: null = choosing, "mixed" = full exam, or a category name
+  const [mode, setMode] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/verify-access")
@@ -35,9 +37,15 @@ export default function QuizPage() {
   );
 
   const exam = useMemo(() => {
-    const pool = shuffle(allScenarios);
+    let pool: Scenario[];
+    if (mode && mode !== "mixed") {
+      const cat = typedBank.categories.find((c) => c.category === mode);
+      pool = shuffle(cat ? cat.questions : []);
+    } else {
+      pool = shuffle(allScenarios);
+    }
     return hasAccess ? pool.slice(0, EXAM_SIZE) : pool.slice(0, FREE_LIMIT);
-  }, [allScenarios, hasAccess]);
+  }, [allScenarios, hasAccess, mode]);
 
   if (hasAccess === null) {
     return (
@@ -49,16 +57,109 @@ export default function QuizPage() {
     );
   }
 
+  // Mode not chosen yet → show the selection screen
+  if (mode === null) {
+    return (
+      <>
+        <Header />
+        <ModePicker
+          hasAccess={hasAccess}
+          onPick={setMode}
+        />
+        <Footer />
+      </>
+    );
+  }
+
   return (
     <>
       <Header />
-      <Exam scenarios={exam} isFree={!hasAccess} />
+      <div className="container" style={{ paddingTop: 24 }}>
+        <button
+          className="btn secondary"
+          style={{ padding: "8px 16px", fontSize: 14 }}
+          onClick={() => setMode(null)}
+        >
+          ← Choose another test
+        </button>
+      </div>
+      <Exam scenarios={exam} isFree={!hasAccess} modeLabel={mode === "mixed" ? "Full mock exam" : mode} />
       <Footer />
     </>
   );
 }
 
-function Exam({ scenarios, isFree }: { scenarios: Scenario[]; isFree: boolean }) {
+function ModePicker({
+  hasAccess,
+  onPick,
+}: {
+  hasAccess: boolean;
+  onPick: (mode: string) => void;
+}) {
+  return (
+    <div className="container quiz-wrap">
+      <h1 style={{ fontSize: 32, letterSpacing: "-0.02em", margin: "0 0 8px" }}>
+        Choose your practice
+      </h1>
+      <p style={{ color: "var(--muted)", margin: "0 0 32px" }}>
+        Take a full mock exam, or drill one topic at a time.
+      </p>
+
+      {!hasAccess && (
+        <div
+          style={{
+            background: "rgba(242,183,5,0.1)",
+            border: "1px solid var(--line)",
+            borderRadius: 10,
+            padding: "12px 16px",
+            marginBottom: 28,
+            fontSize: 14,
+            color: "var(--muted)",
+          }}
+        >
+          You&apos;re on the free preview — each test shows {FREE_LIMIT} scenarios.{" "}
+          <Link href="/#pricing" style={{ color: "var(--lane)", fontWeight: 700 }}>
+            Unlock everything for 50 DKK
+          </Link>
+          .
+        </div>
+      )}
+
+      <button
+        className="mode-card mode-card-primary"
+        onClick={() => onPick("mixed")}
+      >
+        <div>
+          <div className="mode-title">Full mock exam</div>
+          <div className="mode-sub">
+            {hasAccess ? "25" : FREE_LIMIT} scenarios drawn from every topic — closest to the real test
+          </div>
+        </div>
+        <span className="mode-arrow">→</span>
+      </button>
+
+      <div className="mode-divider">or pick a single topic</div>
+
+      <div className="mode-grid">
+        {typedBank.categories.map((c) => (
+          <button
+            key={c.category}
+            className="mode-card"
+            onClick={() => onPick(c.category)}
+          >
+            <div>
+              <div className="mode-title">{c.category}</div>
+              <div className="mode-sub">{c.questions.length} scenarios</div>
+            </div>
+            <span className="mode-arrow">→</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function Exam({ scenarios, isFree, modeLabel }: { scenarios: Scenario[]; isFree: boolean; modeLabel: string }) {
   const [idx, setIdx] = useState(0);
   // answers[scenarioIdx][subIdx] = boolean chosen
   const [answers, setAnswers] = useState<Record<number, Record<number, boolean>>>({});
@@ -144,6 +245,10 @@ function Exam({ scenarios, isFree }: { scenarios: Scenario[]; isFree: boolean })
           for the full exam.
         </div>
       )}
+
+      <p style={{ color: "var(--muted)", fontSize: 14, marginBottom: 12, marginTop: 0 }}>
+        {modeLabel}
+      </p>
 
       <div className="progress">
         <div className="bar" style={{ width: `${progress}%` }} />
