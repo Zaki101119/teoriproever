@@ -1,0 +1,290 @@
+:root {
+  /* Asphalt / instrument-panel palette */
+  --asphalt: #14181f;      /* deep road surface */
+  --asphalt-2: #1c222c;    /* raised panel */
+  --line: #2a323f;         /* hairline / lane edge */
+  --ink: #eef2f7;          /* primary text */
+  --muted: #9aa6b6;        /* secondary text */
+  --lane: #f2b705;         /* signal amber (road marking) */
+  --go: #35c26b;           /* correct / green light */
+  --stop: #e23b41;         /* incorrect / Danish red */
+  --sky: #4a9bd6;          /* mandatory-sign blue */
+  --focus: #f2b705;
+
+  --radius: 10px;
+  --maxw: 1080px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--asphalt);
+  color: var(--ink);
+  font-family: "Inter", "Helvetica Neue", Arial, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---- Lane-marking divider motif ---- */
+.lane-rule {
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--lane) 0 40px,
+    transparent 40px 72px
+  );
+  opacity: 0.8;
+  border: none;
+  margin: 0;
+}
+
+/* ---- Header ---- */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: 20px;
+}
+.brand .dot { color: var(--lane); }
+
+/* ---- Hero ---- */
+.hero {
+  padding: 80px 0 64px;
+  position: relative;
+  overflow: hidden;
+}
+.hero h1 {
+  font-size: clamp(40px, 7vw, 76px);
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+  font-weight: 850;
+  margin: 0 0 20px;
+  max-width: 14ch;
+}
+.hero p.lead {
+  font-size: 19px;
+  color: var(--muted);
+  max-width: 52ch;
+  margin: 0 0 36px;
+}
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+.stat .num {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.stat .lbl { color: var(--muted); font-size: 14px; }
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--lane);
+  color: #1a1300;
+  font-weight: 700;
+  padding: 15px 26px;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.btn:hover { filter: brightness(1.06); transform: translateY(-1px); }
+.btn.secondary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---- Category grid ---- */
+.section { padding: 72px 0; }
+.section h2 {
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+.section .sub { color: var(--muted); margin: 0 0 36px; }
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.cat-cell {
+  background: var(--asphalt-2);
+  padding: 22px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cat-cell .name { font-weight: 700; font-size: 16px; }
+.cat-cell .meta { color: var(--muted); font-size: 13px; margin-top: 8px; }
+
+/* ---- Pricing ---- */
+.price-card {
+  background: var(--asphalt-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 40px;
+  max-width: 460px;
+}
+.price-tag {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.price-tag .amount { font-size: 56px; font-weight: 850; letter-spacing: -0.03em; }
+.price-tag .unit { color: var(--muted); font-size: 18px; }
+.price-card ul { list-style: none; padding: 0; margin: 24px 0; }
+.price-card li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.price-card li::before { content: "✓"; color: var(--go); font-weight: 800; }
+
+/* ---- Quiz ---- */
+.quiz-wrap { padding: 40px 0 80px; }
+.progress {
+  height: 6px;
+  background: var(--line);
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.progress .bar { height: 100%; background: var(--lane); transition: width 0.3s ease; }
+
+.scenario-card {
+  background: var(--asphalt-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+.scenario-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  margin-bottom: 20px;
+  display: block;
+}
+.scenario-text { font-size: 20px; font-weight: 600; margin: 0 0 24px; }
+
+.subq {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+}
+.subq .q { margin-bottom: 12px; }
+.tf-row { display: flex; gap: 10px; }
+.tf-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 0.12s;
+}
+.tf-btn:hover { background: rgba(255,255,255,0.04); }
+.tf-btn.chosen { border-color: var(--lane); background: rgba(242,183,5,0.1); }
+.tf-btn.correct { border-color: var(--go); background: rgba(53,194,107,0.15); }
+.tf-btn.wrong { border-color: var(--stop); background: rgba(226,59,65,0.15); }
+.explanation {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--muted);
+  border-left: 2px solid var(--lane);
+  padding-left: 12px;
+}
+
+.quiz-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+/* ---- Result ---- */
+.result-card {
+  background: var(--asphalt-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 48px;
+  text-align: center;
+}
+.result-score { font-size: 64px; font-weight: 850; letter-spacing: -0.03em; }
+.result-pass { color: var(--go); }
+.result-fail { color: var(--stop); }
+
+/* ---- Gate ---- */
+.gate {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 32px 0;
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+@media (max-width: 640px) {
+  .hero { padding: 56px 0 40px; }
+  .hero-stats { gap: 24px; }
+  .scenario-card, .price-card, .result-card { padding: 24px; }
+}

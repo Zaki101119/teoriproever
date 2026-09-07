@@ -1,0 +1,1623 @@
+{
+  "meta": {
+    "title": "Danish Driving Theory Test - Original Question Bank",
+    "category_licence": "B (personbil)",
+    "language": "en",
+    "note": "Original content authored from public Danish traffic rules (Færdselsloven) and Færdselsstyrelsen test structure. No third-party question content reused. Images/illustrations to be sourced separately (own or licensed).",
+    "answer_format": "true_false_subquestions"
+  },
+  "categories": [
+    {
+      "category": "Right of way (Vigepligt)",
+      "questions": [
+        {
+          "id": "row-001",
+          "scenario": "You approach an unmarked intersection with no signs, signals, or road markings. A car is approaching from your right at the same time.",
+          "subquestions": [
+            {
+              "text": "You must give way to the car on your right.",
+              "answer": true,
+              "explanation": "At unmarked intersections the right-hand rule (højrevigepligt) applies — yield to traffic from your right."
+            },
+            {
+              "text": "You may proceed if you arrive at the intersection slightly first.",
+              "answer": false,
+              "explanation": "Arrival order does not override the right-hand rule at unmarked intersections."
+            }
+          ]
+        },
+        {
+          "id": "row-002",
+          "scenario": "You are exiting a roundabout. A cyclist is riding in the cycle lane around the roundabout and will cross your exit path.",
+          "subquestions": [
+            {
+              "text": "You must give way to the cyclist before exiting.",
+              "answer": true,
+              "explanation": "Cyclists continuing around a roundabout have priority over vehicles exiting across the cycle lane."
+            },
+            {
+              "text": "Cyclists must always give way to cars inside a roundabout.",
+              "answer": false,
+              "explanation": "Yield direction depends on movement; a car exiting across a continuing cyclist's path must yield."
+            }
+          ]
+        },
+        {
+          "id": "row-003",
+          "scenario": "You are turning left at a junction with oncoming traffic and no traffic signal.",
+          "subquestions": [
+            {
+              "text": "You must give way to oncoming traffic going straight or turning right.",
+              "answer": true,
+              "explanation": "A left turn yields to oncoming through-traffic and right-turning traffic."
+            },
+            {
+              "text": "You may turn left first if your indicator was on earlier.",
+              "answer": false,
+              "explanation": "Signaling does not grant priority; movement determines right of way."
+            }
+          ]
+        },
+        {
+          "id": "row-004",
+          "scenario": "A pedestrian is standing at the edge of a marked pedestrian crossing (fodgængerfelt) without traffic lights, showing intent to cross.",
+          "subquestions": [
+            {
+              "text": "You must stop or slow down to let the pedestrian cross.",
+              "answer": true,
+              "explanation": "Vehicles give way to pedestrians at unsignalled marked crossings once intent is clear."
+            },
+            {
+              "text": "You only need to give way once the pedestrian has stepped into the road.",
+              "answer": false,
+              "explanation": "Give way as soon as intent is clear, not after they enter the roadway."
+            }
+          ]
+        },
+        {
+          "id": "row-005",
+          "scenario": "You are on a road marked with a 'unbroken give-way line' (hajtænder / shark teeth) approaching a larger road.",
+          "subquestions": [
+            {
+              "text": "You must give way to all traffic on the larger road.",
+              "answer": true,
+              "explanation": "Shark-teeth markings and the give-way triangle mean you yield to crossing traffic."
+            },
+            {
+              "text": "You may enter as long as you signal.",
+              "answer": false,
+              "explanation": "Give-way obligation stands regardless of signaling."
+            }
+          ]
+        },
+        {
+          "id": "row-006",
+          "scenario": "You are on a road with a give-way sign (the inverted triangle) approaching a main road.",
+          "subquestions": [
+            {
+              "text": "You must yield to traffic on the main road but need not stop if it is clear.",
+              "answer": true,
+              "explanation": "A give-way sign requires yielding, not a full stop if the way is clear."
+            },
+            {
+              "text": "A give-way sign has the same meaning as a stop sign.",
+              "answer": false,
+              "explanation": "A stop sign requires a complete stop; a give-way sign does not if the road is clear."
+            }
+          ]
+        },
+        {
+          "id": "row-007",
+          "scenario": "You reach a red octagonal stop sign at a junction with clear visibility and no other traffic.",
+          "subquestions": [
+            {
+              "text": "You must come to a complete stop even if the road is clear.",
+              "answer": true,
+              "explanation": "A stop sign always requires a full stop, regardless of visibility."
+            }
+          ]
+        },
+        {
+          "id": "row-008",
+          "scenario": "An emergency vehicle approaches from behind with lights and sirens active while you are at a junction.",
+          "subquestions": [
+            {
+              "text": "You must make way, pulling over safely where possible.",
+              "answer": true,
+              "explanation": "Drivers must give way to emergency vehicles under blue lights and sirens."
+            },
+            {
+              "text": "You should stop immediately in the middle of the junction.",
+              "answer": false,
+              "explanation": "Clear the junction first, then pull over safely — stopping in the junction blocks the emergency vehicle."
+            }
+          ]
+        },
+        {
+          "id": "row-009",
+          "scenario": "You are leaving a private driveway or car park onto a public road.",
+          "subquestions": [
+            {
+              "text": "You must give way to all traffic and pedestrians on the road you are joining.",
+              "answer": true,
+              "explanation": "Traffic emerging from private ground yields to all road users."
+            }
+          ]
+        },
+        {
+          "id": "row-010",
+          "scenario": "Traffic lights at a junction are out of order (not lit at all).",
+          "subquestions": [
+            {
+              "text": "You should treat the junction with caution and apply the normal right of way rules.",
+              "answer": true,
+              "explanation": "With dead signals, fall back to signs/markings or the right-hand rule and proceed carefully."
+            },
+            {
+              "text": "You always have priority when lights are off.",
+              "answer": false,
+              "explanation": "No one has automatic priority; normal rules and caution apply."
+            }
+          ]
+        },
+        {
+          "id": "row-011",
+          "scenario": "You are on a road marked as a priority road (yellow diamond sign) approaching a side road.",
+          "subquestions": [
+            {
+              "text": "Traffic entering from the side road must give way to you.",
+              "answer": true,
+              "explanation": "The yellow diamond marks a priority road; entering traffic yields to you."
+            },
+            {
+              "text": "You must still slow and give way to the side road.",
+              "answer": false,
+              "explanation": "On a priority road you keep priority; you need not yield to the side road."
+            }
+          ]
+        },
+        {
+          "id": "row-012",
+          "scenario": "Two cars reach a narrow bridge from opposite directions; a sign shows a red arrow and a black arrow indicating priority.",
+          "subquestions": [
+            {
+              "text": "The sign tells you who must give way at the narrowing.",
+              "answer": true,
+              "explanation": "Priority-over-oncoming and give-way-to-oncoming signs govern narrow sections."
+            }
+          ]
+        },
+        {
+          "id": "row-013",
+          "scenario": "You are turning at a green light but pedestrians have a green walk signal to cross the road you're turning into.",
+          "subquestions": [
+            {
+              "text": "You must give way to the crossing pedestrians before completing your turn.",
+              "answer": true,
+              "explanation": "A green light for you does not override pedestrians crossing on their own green."
+            }
+          ]
+        },
+        {
+          "id": "row-014",
+          "scenario": "A bus is signalling to pull out from a bus stop in a built-up area.",
+          "subquestions": [
+            {
+              "text": "You should let the bus pull out if you can do so safely.",
+              "answer": true,
+              "explanation": "In town, drivers must give way to buses signalling to leave a stop where safe."
+            },
+            {
+              "text": "The bus must always wait for all cars to pass first.",
+              "answer": false,
+              "explanation": "In built-up areas the bus has priority to rejoin traffic when signalling."
+            }
+          ]
+        },
+        {
+          "id": "row-015",
+          "scenario": "You approach a junction controlled by a police officer directing traffic, while the traffic light shows green for you.",
+          "subquestions": [
+            {
+              "text": "You must obey the police officer's signals over the traffic light.",
+              "answer": true,
+              "explanation": "Directions from a police officer override traffic signals."
+            }
+          ]
+        },
+        {
+          "id": "row-016",
+          "scenario": "You approach a roundabout and traffic is already circulating.",
+          "subquestions": [
+            {
+              "text": "You must give way to traffic already in the roundabout.",
+              "answer": true,
+              "explanation": "Entering traffic yields to vehicles already circulating."
+            },
+            {
+              "text": "You have priority because you are entering.",
+              "answer": false,
+              "explanation": "Circulating traffic has priority over entering traffic."
+            }
+          ]
+        },
+        {
+          "id": "row-017",
+          "scenario": "You want to make a U-turn on a normal road.",
+          "subquestions": [
+            {
+              "text": "You must give way to all other traffic while turning.",
+              "answer": true,
+              "explanation": "A U-turn yields to oncoming and passing traffic."
+            }
+          ]
+        },
+        {
+          "id": "row-018",
+          "scenario": "You are reversing out of a parking space onto a road.",
+          "subquestions": [
+            {
+              "text": "You must give way to traffic and pedestrians already on the road.",
+              "answer": true,
+              "explanation": "Reversing drivers yield to existing road users."
+            }
+          ]
+        },
+        {
+          "id": "row-019",
+          "scenario": "Two vehicles meet on a narrow road where only one can pass and there is a passing place on your side.",
+          "subquestions": [
+            {
+              "text": "You should use the passing place to let the other vehicle through.",
+              "answer": true,
+              "explanation": "Whoever is nearer a passing place typically uses it to allow passage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Speed limits & adjusting speed (Hastighed)",
+      "questions": [
+        {
+          "id": "spd-001",
+          "scenario": "You are driving in a built-up area (byzone) with no posted speed limit signs.",
+          "subquestions": [
+            {
+              "text": "The default speed limit is 50 km/h.",
+              "answer": true,
+              "explanation": "Inside built-up areas the default without signage is 50 km/h."
+            },
+            {
+              "text": "You may drive up to 60 km/h if the road is empty.",
+              "answer": false,
+              "explanation": "The default applies regardless of traffic level."
+            }
+          ]
+        },
+        {
+          "id": "spd-002",
+          "scenario": "You are on a rural road (landevej) with no posted signs, in wet conditions.",
+          "subquestions": [
+            {
+              "text": "The default is 80 km/h, but you must reduce speed for wet conditions.",
+              "answer": true,
+              "explanation": "80 km/h is the rural default; drivers must adjust to conditions like rain or poor visibility."
+            },
+            {
+              "text": "You must always drive at the default limit regardless of conditions.",
+              "answer": false,
+              "explanation": "The limit is a maximum, not a target."
+            }
+          ]
+        },
+        {
+          "id": "spd-003",
+          "scenario": "You are driving on a motorway (motorvej) with no posted signs.",
+          "subquestions": [
+            {
+              "text": "The default motorway limit for cars is 130 km/h.",
+              "answer": true,
+              "explanation": "Default motorway limit is 130 km/h unless posted otherwise."
+            },
+            {
+              "text": "The same default applies to a car towing a trailer.",
+              "answer": false,
+              "explanation": "Cars with trailers have a lower maximum (typically 80 km/h)."
+            }
+          ]
+        },
+        {
+          "id": "spd-004",
+          "scenario": "You approach a warning sign showing children, near a school, with no numeric speed sign.",
+          "subquestions": [
+            {
+              "text": "You should reduce speed and be prepared to stop.",
+              "answer": true,
+              "explanation": "Warning signs for children require increased caution regardless of a posted number."
+            }
+          ]
+        },
+        {
+          "id": "spd-005",
+          "scenario": "You enter a zone marked with a sign showing '30' inside a red circle.",
+          "subquestions": [
+            {
+              "text": "The maximum speed in this zone is 30 km/h.",
+              "answer": true,
+              "explanation": "A number in a red circle sets the maximum permitted speed."
+            }
+          ]
+        },
+        {
+          "id": "spd-006",
+          "scenario": "You are towing a trailer on a rural road with a car.",
+          "subquestions": [
+            {
+              "text": "A lower speed limit generally applies when towing a trailer.",
+              "answer": true,
+              "explanation": "Vehicles with trailers have reduced maximum speeds compared to solo cars."
+            }
+          ]
+        },
+        {
+          "id": "spd-007",
+          "scenario": "You are driving in heavy fog with visibility under 50 metres.",
+          "subquestions": [
+            {
+              "text": "You must reduce speed so you can stop within the distance you can see.",
+              "answer": true,
+              "explanation": "Speed must always allow stopping within visible clear distance."
+            },
+            {
+              "text": "You can keep the normal limit as long as your fog lights are on.",
+              "answer": false,
+              "explanation": "Lights help visibility but do not remove the duty to slow for conditions."
+            }
+          ]
+        },
+        {
+          "id": "spd-008",
+          "scenario": "You leave a built-up area and pass the sign marking the end of the town zone.",
+          "subquestions": [
+            {
+              "text": "The default speed limit increases to the rural default unless otherwise posted.",
+              "answer": true,
+              "explanation": "Leaving byzone raises the default to the outside-town limit (80 km/h) unless signs say otherwise."
+            }
+          ]
+        },
+        {
+          "id": "spd-009",
+          "scenario": "You enter a 'living street' / play street (opholds- og legeområde) marked with the blue sign.",
+          "subquestions": [
+            {
+              "text": "You must drive at walking pace and give way to people using the street.",
+              "answer": true,
+              "explanation": "On a play street you drive at walking pace and yield to pedestrians and children."
+            }
+          ]
+        },
+        {
+          "id": "spd-010",
+          "scenario": "You see a speed sign showing '70' as you leave a 50 zone.",
+          "subquestions": [
+            {
+              "text": "The new maximum from that sign is 70 km/h.",
+              "answer": true,
+              "explanation": "A posted number sets the new maximum from the sign onward."
+            }
+          ]
+        },
+        {
+          "id": "spd-011",
+          "scenario": "Traffic ahead is heavy and moving slower than the limit.",
+          "subquestions": [
+            {
+              "text": "You must not exceed the limit, but you should also match the safe flow of traffic.",
+              "answer": true,
+              "explanation": "The limit is a ceiling; driving far faster than surrounding traffic is unsafe."
+            }
+          ]
+        },
+        {
+          "id": "spd-012",
+          "scenario": "You are approaching roadworks with a temporary reduced speed limit sign.",
+          "subquestions": [
+            {
+              "text": "Temporary limits at roadworks are legally binding.",
+              "answer": true,
+              "explanation": "Temporary signs override the normal limit for the marked stretch."
+            },
+            {
+              "text": "You can ignore temporary limits if no workers are visible.",
+              "answer": false,
+              "explanation": "Temporary limits apply regardless of whether workers are currently present."
+            }
+          ]
+        },
+        {
+          "id": "spd-013",
+          "scenario": "You are driving where the road surface is covered in fallen leaves and it has rained.",
+          "subquestions": [
+            {
+              "text": "You should reduce speed because grip is reduced.",
+              "answer": true,
+              "explanation": "Wet leaves reduce traction; slow down."
+            }
+          ]
+        },
+        {
+          "id": "spd-014",
+          "scenario": "You see an electronic sign showing a lower variable speed limit on a motorway.",
+          "subquestions": [
+            {
+              "text": "Variable electronic limits are binding just like fixed signs.",
+              "answer": true,
+              "explanation": "Electronic gantry limits are legally enforceable."
+            }
+          ]
+        },
+        {
+          "id": "spd-015",
+          "scenario": "You are driving downhill on a long slope.",
+          "subquestions": [
+            {
+              "text": "You should use engine braking to help control speed.",
+              "answer": true,
+              "explanation": "Engine braking prevents overheating brakes on long descents."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Overtaking (Overhaling)",
+      "questions": [
+        {
+          "id": "ovt-001",
+          "scenario": "You are approaching a solid centre line (unbroken line) on a two-way road with a slow vehicle ahead.",
+          "subquestions": [
+            {
+              "text": "You must not cross the solid line to overtake.",
+              "answer": true,
+              "explanation": "A solid centre line prohibits crossing to overtake."
+            },
+            {
+              "text": "You may overtake if the road ahead looks clear.",
+              "answer": false,
+              "explanation": "The solid line is a legal prohibition irrespective of visibility."
+            }
+          ]
+        },
+        {
+          "id": "ovt-002",
+          "scenario": "You want to overtake just before a pedestrian crossing where someone may cross.",
+          "subquestions": [
+            {
+              "text": "Overtaking immediately before a pedestrian crossing is prohibited.",
+              "answer": true,
+              "explanation": "Overtaking just before crossings is banned because it hides pedestrians from following/overtaking drivers."
+            }
+          ]
+        },
+        {
+          "id": "ovt-003",
+          "scenario": "You are being overtaken by another vehicle on a single carriageway.",
+          "subquestions": [
+            {
+              "text": "You must not increase your speed while being overtaken.",
+              "answer": true,
+              "explanation": "Speeding up during an overtake endangers both drivers and is prohibited."
+            },
+            {
+              "text": "You may move slightly right to help the overtaking driver.",
+              "answer": true,
+              "explanation": "Keeping right where safe assists a legal overtake."
+            }
+          ]
+        },
+        {
+          "id": "ovt-004",
+          "scenario": "You are approaching the crest of a hill where you cannot see oncoming traffic.",
+          "subquestions": [
+            {
+              "text": "You must not overtake where your view of the road ahead is obstructed.",
+              "answer": true,
+              "explanation": "Overtaking requires a clear view of sufficient road ahead; blind crests forbid it."
+            }
+          ]
+        },
+        {
+          "id": "ovt-005",
+          "scenario": "A cyclist is riding ahead of you on a narrow road and you wish to pass.",
+          "subquestions": [
+            {
+              "text": "You must leave sufficient lateral distance when passing the cyclist.",
+              "answer": true,
+              "explanation": "A safe side clearance is required when overtaking cyclists."
+            },
+            {
+              "text": "You may pass closely as long as you do not touch the cyclist.",
+              "answer": false,
+              "explanation": "Close passing is dangerous and not permitted; adequate clearance is required."
+            }
+          ]
+        },
+        {
+          "id": "ovt-006",
+          "scenario": "You are on a road with two lanes in your direction and want to overtake.",
+          "subquestions": [
+            {
+              "text": "You should overtake using the lane to the left, then return right when safe.",
+              "answer": true,
+              "explanation": "Overtake on the left and move back to the right lane once clear."
+            }
+          ]
+        },
+        {
+          "id": "ovt-007",
+          "scenario": "You are approaching a level railway crossing and the car ahead is slow.",
+          "subquestions": [
+            {
+              "text": "You must not overtake at or immediately before a railway crossing.",
+              "answer": true,
+              "explanation": "Overtaking is prohibited at level crossings for safety."
+            }
+          ]
+        },
+        {
+          "id": "ovt-008",
+          "scenario": "A vehicle ahead is signalling and positioned to turn left.",
+          "subquestions": [
+            {
+              "text": "You may pass it on the right if there is room and it is safe.",
+              "answer": true,
+              "explanation": "A vehicle waiting to turn left can be passed on the right where space allows."
+            }
+          ]
+        },
+        {
+          "id": "ovt-009",
+          "scenario": "You want to overtake a long lorry on a two-lane road.",
+          "subquestions": [
+            {
+              "text": "You need more distance and time than to overtake a car.",
+              "answer": true,
+              "explanation": "Longer vehicles require significantly more clear road to overtake safely."
+            },
+            {
+              "text": "Overtaking a lorry takes the same distance as overtaking a car.",
+              "answer": false,
+              "explanation": "A lorry's length means you need markedly more clear distance."
+            }
+          ]
+        },
+        {
+          "id": "ovt-010",
+          "scenario": "You have started to overtake but realise the gap is closing with oncoming traffic.",
+          "subquestions": [
+            {
+              "text": "You should abort by easing off and dropping back safely.",
+              "answer": true,
+              "explanation": "If in doubt, abandon the overtake and return behind the vehicle."
+            }
+          ]
+        },
+        {
+          "id": "ovt-011",
+          "scenario": "There is a broken centre line on your side and a solid line on the oncoming side.",
+          "subquestions": [
+            {
+              "text": "You may overtake when your side has the broken line and it is safe.",
+              "answer": true,
+              "explanation": "You follow the line on your side; broken permits overtaking when safe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Stopping & parking (Standsning og parkering)",
+      "questions": [
+        {
+          "id": "prk-001",
+          "scenario": "You want to stop your car within 5 metres before a pedestrian crossing.",
+          "subquestions": [
+            {
+              "text": "Stopping and parking is prohibited that close before a crossing.",
+              "answer": true,
+              "explanation": "Stopping/parking within the minimum distance before a crossing is banned to preserve visibility."
+            }
+          ]
+        },
+        {
+          "id": "prk-002",
+          "scenario": "You park on a hill facing downward.",
+          "subquestions": [
+            {
+              "text": "You should turn the front wheels toward the kerb.",
+              "answer": true,
+              "explanation": "Turning wheels toward the kerb prevents the car rolling into the road if the brake fails."
+            },
+            {
+              "text": "Leaving it in neutral with the handbrake off is acceptable on a slope.",
+              "answer": false,
+              "explanation": "A parked car must be secured against rolling — handbrake on and in gear."
+            }
+          ]
+        },
+        {
+          "id": "prk-003",
+          "scenario": "You stop your car at a bus stop marked with the bus-stop sign to quickly drop off a passenger.",
+          "subquestions": [
+            {
+              "text": "Parking at a bus stop is prohibited.",
+              "answer": true,
+              "explanation": "Parking at marked bus stops is banned; brief passenger set-down rules are limited and situation-dependent."
+            }
+          ]
+        },
+        {
+          "id": "prk-004",
+          "scenario": "You want to park across the entrance to someone's driveway.",
+          "subquestions": [
+            {
+              "text": "Parking that blocks a driveway entrance is prohibited.",
+              "answer": true,
+              "explanation": "Obstructing entrances/exits is not allowed."
+            }
+          ]
+        },
+        {
+          "id": "prk-005",
+          "scenario": "You stop on a road with a sign showing a red circle with a single diagonal red line (no parking).",
+          "subquestions": [
+            {
+              "text": "You may stop briefly to set down passengers but not park.",
+              "answer": true,
+              "explanation": "A no-parking sign forbids parking but generally allows brief stopping for boarding/alighting."
+            },
+            {
+              "text": "The sign means you cannot even stop momentarily.",
+              "answer": false,
+              "explanation": "That is the no-stopping sign (two crossed diagonal lines), which is different."
+            }
+          ]
+        },
+        {
+          "id": "prk-006",
+          "scenario": "You park at night on a poorly lit road outside a built-up area.",
+          "subquestions": [
+            {
+              "text": "You may need to leave parking lights on so the car is visible.",
+              "answer": true,
+              "explanation": "On unlit roads a parked car may need to show parking lights for visibility."
+            }
+          ]
+        },
+        {
+          "id": "prk-007",
+          "scenario": "You want to stop on a pedestrian crossing to wait in traffic.",
+          "subquestions": [
+            {
+              "text": "You must not stop on a pedestrian crossing.",
+              "answer": true,
+              "explanation": "Stopping on a crossing blocks pedestrians and is prohibited."
+            }
+          ]
+        },
+        {
+          "id": "prk-008",
+          "scenario": "There is a solid yellow line along the kerb.",
+          "subquestions": [
+            {
+              "text": "A kerb marking can indicate that stopping or parking is restricted.",
+              "answer": true,
+              "explanation": "Yellow kerb markings signal parking/stopping restrictions."
+            }
+          ]
+        },
+        {
+          "id": "prk-009",
+          "scenario": "You park in a marked disabled bay without a valid permit.",
+          "subquestions": [
+            {
+              "text": "Parking there without a permit is not allowed.",
+              "answer": true,
+              "explanation": "Disabled bays require a valid permit."
+            }
+          ]
+        },
+        {
+          "id": "prk-010",
+          "scenario": "You park facing against the direction of traffic on a two-way road at night.",
+          "subquestions": [
+            {
+              "text": "Parking against the traffic direction can be restricted and reduces visibility of your reflectors.",
+              "answer": true,
+              "explanation": "Correct orientation matters for visibility and legality."
+            }
+          ]
+        },
+        {
+          "id": "prk-011",
+          "scenario": "You want to stop within a junction to wait for someone.",
+          "subquestions": [
+            {
+              "text": "Stopping within or too close to a junction is prohibited.",
+              "answer": true,
+              "explanation": "Stopping in/near junctions blocks sightlines and turns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Vulnerable road users (Bløde trafikanter)",
+      "questions": [
+        {
+          "id": "vru-001",
+          "scenario": "You are turning right and a cyclist is going straight ahead in the cycle lane to your right.",
+          "subquestions": [
+            {
+              "text": "You must give way to the cyclist before turning across the cycle lane.",
+              "answer": true,
+              "explanation": "Right-turning vehicles yield to cyclists continuing straight in the cycle lane."
+            },
+            {
+              "text": "The cyclist must stop because cars are larger.",
+              "answer": false,
+              "explanation": "Vehicle size confers no priority; the turning driver yields."
+            }
+          ]
+        },
+        {
+          "id": "vru-002",
+          "scenario": "Children are playing near the roadway on a residential street.",
+          "subquestions": [
+            {
+              "text": "You should reduce speed and be ready to stop suddenly.",
+              "answer": true,
+              "explanation": "Children are unpredictable; extra caution and low speed are required."
+            }
+          ]
+        },
+        {
+          "id": "vru-003",
+          "scenario": "You approach a stopped bus with its hazard/indicator lights on at a bus stop, and passengers are around it.",
+          "subquestions": [
+            {
+              "text": "You should slow down and watch for pedestrians crossing.",
+              "answer": true,
+              "explanation": "People may cross in front of or behind a stopped bus, so reduce speed and stay alert."
+            }
+          ]
+        },
+        {
+          "id": "vru-004",
+          "scenario": "An elderly pedestrian is crossing slowly and the light turns green for you.",
+          "subquestions": [
+            {
+              "text": "You must let them finish crossing before you move off.",
+              "answer": true,
+              "explanation": "Pedestrians already crossing must be allowed to complete the crossing safely."
+            }
+          ]
+        },
+        {
+          "id": "vru-005",
+          "scenario": "You open your car door after parking on a street with cycle traffic.",
+          "subquestions": [
+            {
+              "text": "You must check for cyclists before opening the door.",
+              "answer": true,
+              "explanation": "Door-checking prevents 'dooring' collisions with passing cyclists."
+            },
+            {
+              "text": "Cyclists are responsible for avoiding opening doors, not the driver.",
+              "answer": false,
+              "explanation": "The person opening the door must ensure it is safe to do so."
+            }
+          ]
+        },
+        {
+          "id": "vru-006",
+          "scenario": "You see a blind pedestrian with a white cane near a crossing.",
+          "subquestions": [
+            {
+              "text": "You should show extra caution and be ready to give way.",
+              "answer": true,
+              "explanation": "Vulnerable pedestrians such as those with impaired sight require extra care."
+            }
+          ]
+        },
+        {
+          "id": "vru-007",
+          "scenario": "You are turning right where a cycle path crosses your path and cyclists may be approaching from behind on your right.",
+          "subquestions": [
+            {
+              "text": "You should check your right-side blind spot for cyclists before turning.",
+              "answer": true,
+              "explanation": "Right-turn/cyclist conflicts are a major crash cause; check the blind spot."
+            }
+          ]
+        },
+        {
+          "id": "vru-008",
+          "scenario": "A ball rolls into the road from between parked cars in a residential area.",
+          "subquestions": [
+            {
+              "text": "You should slow immediately and expect a child may follow it.",
+              "answer": true,
+              "explanation": "A ball often precedes a running child; anticipate and slow."
+            }
+          ]
+        },
+        {
+          "id": "vru-009",
+          "scenario": "You approach a group of horse riders on a rural road.",
+          "subquestions": [
+            {
+              "text": "You should slow down and pass wide and gently to avoid spooking the horses.",
+              "answer": true,
+              "explanation": "Horses can be startled; pass slowly with plenty of room."
+            }
+          ]
+        },
+        {
+          "id": "vru-010",
+          "scenario": "A moped rider is ahead of you in a cycle lane where mopeds are permitted.",
+          "subquestions": [
+            {
+              "text": "You should treat the moped like other vulnerable users and keep distance.",
+              "answer": true,
+              "explanation": "Small two-wheelers need extra space and care."
+            }
+          ]
+        },
+        {
+          "id": "vru-011",
+          "scenario": "A pedestrian steps out unexpectedly from behind a parked van.",
+          "subquestions": [
+            {
+              "text": "You should brake and be ready for hidden pedestrians near parked vehicles.",
+              "answer": true,
+              "explanation": "Parked vehicles hide pedestrians; anticipate and slow."
+            }
+          ]
+        },
+        {
+          "id": "vru-012",
+          "scenario": "Children are getting off a school bus that has stopped ahead.",
+          "subquestions": [
+            {
+              "text": "You should slow right down and watch for children crossing.",
+              "answer": true,
+              "explanation": "Children may cross unexpectedly around a stopped school bus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Motorway rules (Motorvej)",
+      "questions": [
+        {
+          "id": "mwy-001",
+          "scenario": "You are joining a motorway from an on-ramp (acceleration lane).",
+          "subquestions": [
+            {
+              "text": "You should adjust your speed to merge smoothly with traffic.",
+              "answer": true,
+              "explanation": "Use the acceleration lane to match traffic speed before merging."
+            },
+            {
+              "text": "Traffic on the motorway must brake to let you in.",
+              "answer": false,
+              "explanation": "Merging traffic adapts to the flow; through-traffic is not obliged to brake."
+            }
+          ]
+        },
+        {
+          "id": "mwy-002",
+          "scenario": "You want to stop on the hard shoulder because you are tired.",
+          "subquestions": [
+            {
+              "text": "Stopping on the hard shoulder is only permitted in an emergency.",
+              "answer": true,
+              "explanation": "The hard shoulder is for breakdowns/emergencies, not rest — use a rest area instead."
+            }
+          ]
+        },
+        {
+          "id": "mwy-003",
+          "scenario": "You are driving in the left (overtaking) lane after completing an overtake.",
+          "subquestions": [
+            {
+              "text": "You should return to the right lane when safe.",
+              "answer": true,
+              "explanation": "Keep right except when overtaking; the left lane is not for continuous cruising."
+            }
+          ]
+        },
+        {
+          "id": "mwy-004",
+          "scenario": "You miss your motorway exit.",
+          "subquestions": [
+            {
+              "text": "You should continue to the next exit rather than reverse or stop.",
+              "answer": true,
+              "explanation": "Reversing or stopping on a motorway is dangerous and prohibited; carry on to the next exit."
+            },
+            {
+              "text": "You may reverse carefully on the hard shoulder to reach the exit.",
+              "answer": false,
+              "explanation": "Reversing on a motorway is never allowed."
+            }
+          ]
+        },
+        {
+          "id": "mwy-005",
+          "scenario": "There is congestion ahead and traffic is slowing sharply on the motorway.",
+          "subquestions": [
+            {
+              "text": "Using hazard lights briefly can warn drivers behind of the sudden slowdown.",
+              "answer": true,
+              "explanation": "Brief hazard-light use alerts following traffic to unexpected queues."
+            }
+          ]
+        },
+        {
+          "id": "mwy-006",
+          "scenario": "You break down on the motorway and manage to reach the hard shoulder.",
+          "subquestions": [
+            {
+              "text": "You should leave the vehicle from the side away from traffic and stand behind the barrier.",
+              "answer": true,
+              "explanation": "Exit away from live lanes and wait in a safe place behind the barrier."
+            }
+          ]
+        },
+        {
+          "id": "mwy-007",
+          "scenario": "You are on a motorway and want to change lanes to the left to overtake.",
+          "subquestions": [
+            {
+              "text": "You should check mirrors and blind spot and signal before moving.",
+              "answer": true,
+              "explanation": "Mirror-signal-blind spot sequence is required before any lane change."
+            }
+          ]
+        },
+        {
+          "id": "mwy-008",
+          "scenario": "Traffic on the motorway is stopped and emergency vehicles need to pass.",
+          "subquestions": [
+            {
+              "text": "You should form an emergency corridor by moving toward the lane edges.",
+              "answer": true,
+              "explanation": "Creating a rescue lane lets emergency vehicles through stopped traffic."
+            }
+          ]
+        },
+        {
+          "id": "mwy-009",
+          "scenario": "You are driving on a motorway at night and a vehicle behind has very bright lights.",
+          "subquestions": [
+            {
+              "text": "You should avoid staring at the mirror and can dip the interior mirror.",
+              "answer": true,
+              "explanation": "Reducing glare from behind (anti-dazzle mirror) keeps you safe."
+            }
+          ]
+        },
+        {
+          "id": "mwy-010",
+          "scenario": "You want to leave the motorway at your exit.",
+          "subquestions": [
+            {
+              "text": "You should move into the deceleration lane before slowing down.",
+              "answer": true,
+              "explanation": "Slow in the exit/deceleration lane, not on the main carriageway."
+            }
+          ]
+        },
+        {
+          "id": "mwy-011",
+          "scenario": "A slower vehicle is ahead in your lane and the left lane is clear.",
+          "subquestions": [
+            {
+              "text": "You may move left to overtake, then return right.",
+              "answer": true,
+              "explanation": "Overtake on the left and return to the right lane afterwards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Vehicle technical requirements (Køretøjets tekniske krav)",
+      "questions": [
+        {
+          "id": "veh-001",
+          "scenario": "Your car's tyres are worn close to the legal minimum tread depth.",
+          "subquestions": [
+            {
+              "text": "Worn tyres reduce grip, especially in wet conditions.",
+              "answer": true,
+              "explanation": "Low tread reduces water dispersal and braking grip, raising aquaplaning risk."
+            },
+            {
+              "text": "Tread depth has no effect on braking distance.",
+              "answer": false,
+              "explanation": "Tread directly affects grip and braking distance."
+            }
+          ]
+        },
+        {
+          "id": "veh-002",
+          "scenario": "One of your brake lights is not working.",
+          "subquestions": [
+            {
+              "text": "You should repair it before driving, as following drivers cannot see when you brake.",
+              "answer": true,
+              "explanation": "Functioning brake lights are a legal and safety requirement."
+            }
+          ]
+        },
+        {
+          "id": "veh-003",
+          "scenario": "It is dark and visibility is poor due to fog.",
+          "subquestions": [
+            {
+              "text": "You should use dipped headlights and fog lights if fitted.",
+              "answer": true,
+              "explanation": "Dipped beams and fog lights improve visibility without dazzling others; full beam reflects off fog."
+            },
+            {
+              "text": "Full beam headlights are best in fog.",
+              "answer": false,
+              "explanation": "Full beam reflects off fog droplets and worsens visibility."
+            }
+          ]
+        },
+        {
+          "id": "veh-004",
+          "scenario": "Your windscreen washer fluid is empty and the windscreen is dirty.",
+          "subquestions": [
+            {
+              "text": "A dirty windscreen reduces visibility and should be cleaned before driving.",
+              "answer": true,
+              "explanation": "Clear vision is required; washer fluid and wipers must be functional."
+            }
+          ]
+        },
+        {
+          "id": "veh-005",
+          "scenario": "Your car is heavily loaded with luggage affecting the headlight aim.",
+          "subquestions": [
+            {
+              "text": "You may need to adjust the headlight level so you do not dazzle oncoming drivers.",
+              "answer": true,
+              "explanation": "Heavy rear loads tilt beams up; adjust the level control to avoid dazzling."
+            }
+          ]
+        },
+        {
+          "id": "veh-006",
+          "scenario": "You notice the brake warning light stays on while driving.",
+          "subquestions": [
+            {
+              "text": "You should investigate the brake system before continuing to drive.",
+              "answer": true,
+              "explanation": "A persistent brake warning can indicate a safety-critical fault."
+            }
+          ]
+        },
+        {
+          "id": "veh-007",
+          "scenario": "Your tyres are significantly under-inflated.",
+          "subquestions": [
+            {
+              "text": "Under-inflation increases wear, fuel use, and the risk of a blowout.",
+              "answer": true,
+              "explanation": "Low pressure harms handling, economy and tyre safety."
+            }
+          ]
+        },
+        {
+          "id": "veh-008",
+          "scenario": "A warning light for the engine (check engine) comes on steadily.",
+          "subquestions": [
+            {
+              "text": "You should have the cause checked; it may affect emissions or reliability.",
+              "answer": true,
+              "explanation": "An engine warning should be diagnosed rather than ignored."
+            }
+          ]
+        },
+        {
+          "id": "veh-009",
+          "scenario": "Your load extends beyond the rear of the vehicle.",
+          "subquestions": [
+            {
+              "text": "An overhanging load may need to be marked so others can see it.",
+              "answer": true,
+              "explanation": "Projecting loads must be marked for visibility and legality."
+            }
+          ]
+        },
+        {
+          "id": "veh-010",
+          "scenario": "Your rear window and mirrors are iced over on a winter morning.",
+          "subquestions": [
+            {
+              "text": "You must clear ice so you have full visibility before driving.",
+              "answer": true,
+              "explanation": "Driving with obscured windows/mirrors is unsafe and not allowed."
+            }
+          ]
+        },
+        {
+          "id": "veh-011",
+          "scenario": "One headlight is much dimmer than the other at night.",
+          "subquestions": [
+            {
+              "text": "You should fix it so you can see and be seen properly.",
+              "answer": true,
+              "explanation": "Working headlights are essential and legally required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Environmental / eco driving (Miljørigtig kørsel)",
+      "questions": [
+        {
+          "id": "eco-001",
+          "scenario": "You are waiting in a stationary queue that will not move for several minutes.",
+          "subquestions": [
+            {
+              "text": "Switching off the engine reduces fuel use and emissions.",
+              "answer": true,
+              "explanation": "Idling wastes fuel and emits pollutants; turning off the engine when stopped for a while is greener."
+            }
+          ]
+        },
+        {
+          "id": "eco-002",
+          "scenario": "You accelerate hard and brake sharply frequently during a trip.",
+          "subquestions": [
+            {
+              "text": "Smooth acceleration and anticipation reduce fuel consumption.",
+              "answer": true,
+              "explanation": "Gentle, anticipatory driving lowers fuel use and wear."
+            },
+            {
+              "text": "Aggressive acceleration has no impact on fuel economy.",
+              "answer": false,
+              "explanation": "Hard acceleration significantly increases fuel consumption."
+            }
+          ]
+        },
+        {
+          "id": "eco-003",
+          "scenario": "You are driving and change gear at the right engine revs.",
+          "subquestions": [
+            {
+              "text": "Shifting up early at lower revs generally saves fuel.",
+              "answer": true,
+              "explanation": "Driving in higher gears at lower revs reduces fuel consumption."
+            }
+          ]
+        },
+        {
+          "id": "eco-004",
+          "scenario": "You carry a roof box you no longer need for several weeks.",
+          "subquestions": [
+            {
+              "text": "Removing unused roof boxes reduces drag and fuel use.",
+              "answer": true,
+              "explanation": "Roof boxes increase aerodynamic drag and fuel consumption."
+            }
+          ]
+        },
+        {
+          "id": "eco-005",
+          "scenario": "You are approaching a red light you can see from a distance.",
+          "subquestions": [
+            {
+              "text": "Easing off early and coasting to the light saves fuel versus braking late.",
+              "answer": true,
+              "explanation": "Anticipating stops and coasting reduces fuel use and brake wear."
+            }
+          ]
+        },
+        {
+          "id": "eco-006",
+          "scenario": "You make many short cold-start trips each day.",
+          "subquestions": [
+            {
+              "text": "Combining short trips reduces cold-engine fuel waste and emissions.",
+              "answer": true,
+              "explanation": "Cold engines burn more fuel; combining trips is more efficient."
+            }
+          ]
+        },
+        {
+          "id": "eco-007",
+          "scenario": "You leave the engine idling to warm up for several minutes before setting off in winter.",
+          "subquestions": [
+            {
+              "text": "Modern engines are best warmed by gentle driving, not long idling.",
+              "answer": true,
+              "explanation": "Long idling wastes fuel; drive off gently to warm up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "First aid at accident scenes (Førstehjælp)",
+      "questions": [
+        {
+          "id": "fst-001",
+          "scenario": "You arrive first at a road accident with injured people.",
+          "subquestions": [
+            {
+              "text": "You should secure the scene and warn other traffic before helping.",
+              "answer": true,
+              "explanation": "Securing the scene (hazard lights, warning triangle) prevents further collisions."
+            },
+            {
+              "text": "You should immediately move all injured people off the road.",
+              "answer": false,
+              "explanation": "Injured persons should generally not be moved unless in immediate danger, to avoid worsening injuries."
+            }
+          ]
+        },
+        {
+          "id": "fst-002",
+          "scenario": "An injured person is unconscious but breathing.",
+          "subquestions": [
+            {
+              "text": "Placing them in the recovery position helps keep the airway clear.",
+              "answer": true,
+              "explanation": "The recovery position keeps the airway open and reduces choking risk."
+            }
+          ]
+        },
+        {
+          "id": "fst-003",
+          "scenario": "A casualty is bleeding heavily from a limb.",
+          "subquestions": [
+            {
+              "text": "Applying firm pressure to the wound helps control bleeding.",
+              "answer": true,
+              "explanation": "Direct pressure is a primary method to limit heavy bleeding."
+            }
+          ]
+        },
+        {
+          "id": "fst-004",
+          "scenario": "You need to call emergency services at an accident in Denmark.",
+          "subquestions": [
+            {
+              "text": "The emergency number to call is 112.",
+              "answer": true,
+              "explanation": "112 is the emergency number in Denmark and across the EU."
+            }
+          ]
+        },
+        {
+          "id": "fst-005",
+          "scenario": "A casualty is not breathing normally after an accident.",
+          "subquestions": [
+            {
+              "text": "You should call 112 and begin CPR if trained.",
+              "answer": true,
+              "explanation": "Absent normal breathing calls for emergency services and CPR."
+            }
+          ]
+        },
+        {
+          "id": "fst-006",
+          "scenario": "There is a fuel leak and risk of fire at the accident scene.",
+          "subquestions": [
+            {
+              "text": "You should keep bystanders back and avoid ignition sources.",
+              "answer": true,
+              "explanation": "Fuel leaks are a fire risk; keep the area clear of sparks and flames."
+            }
+          ]
+        },
+        {
+          "id": "fst-007",
+          "scenario": "Someone at the scene is in shock, pale and cold.",
+          "subquestions": [
+            {
+              "text": "You should keep them warm and reassured while waiting for help.",
+              "answer": true,
+              "explanation": "Managing shock involves warmth, reassurance and monitoring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Alcohol, drugs & fitness to drive (Spirituskørsel og køreegnethed)",
+      "questions": [
+        {
+          "id": "alc-001",
+          "scenario": "You had several alcoholic drinks and feel fine to drive.",
+          "subquestions": [
+            {
+              "text": "Alcohol impairs reaction time and judgement even when you feel fine.",
+              "answer": true,
+              "explanation": "Impairment occurs before subjective feelings of drunkenness; perceived readiness is unreliable."
+            },
+            {
+              "text": "Coffee will make you safe to drive quickly after drinking.",
+              "answer": false,
+              "explanation": "Only time lowers blood alcohol; caffeine does not remove impairment."
+            }
+          ]
+        },
+        {
+          "id": "alc-002",
+          "scenario": "You are very tired after a long day and consider a long night drive.",
+          "subquestions": [
+            {
+              "text": "Fatigue impairs driving similarly to alcohol and increases crash risk.",
+              "answer": true,
+              "explanation": "Drowsiness slows reactions and attention; rest before driving."
+            }
+          ]
+        },
+        {
+          "id": "alc-003",
+          "scenario": "You are taking prescription medication that causes drowsiness.",
+          "subquestions": [
+            {
+              "text": "Some medicines can impair driving and you should check warnings.",
+              "answer": true,
+              "explanation": "Certain medications affect alertness and reaction time; heed the warnings."
+            }
+          ]
+        },
+        {
+          "id": "alc-004",
+          "scenario": "You drank alcohol last night and are driving early the next morning.",
+          "subquestions": [
+            {
+              "text": "Alcohol may still be in your system and impair you the next morning.",
+              "answer": true,
+              "explanation": "Alcohol clears slowly; you can still be over the limit hours later."
+            }
+          ]
+        },
+        {
+          "id": "alc-005",
+          "scenario": "You feel your eyelids getting heavy on a long drive.",
+          "subquestions": [
+            {
+              "text": "You should stop and rest rather than push on.",
+              "answer": true,
+              "explanation": "Microsleeps are dangerous; rest before continuing."
+            }
+          ]
+        },
+        {
+          "id": "alc-006",
+          "scenario": "A friend offers you a lift after they've been drinking.",
+          "subquestions": [
+            {
+              "text": "You should decline and find a sober driver or other transport.",
+              "answer": true,
+              "explanation": "Never ride with an impaired driver; arrange a safe alternative."
+            }
+          ]
+        },
+        {
+          "id": "alc-007",
+          "scenario": "You wear glasses for driving but left them at home.",
+          "subquestions": [
+            {
+              "text": "You should not drive if a vision correction condition on your licence isn't met.",
+              "answer": true,
+              "explanation": "You must meet any eyesight conditions attached to your licence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Documents & insurance basics (Dokumenter og forsikring)",
+      "questions": [
+        {
+          "id": "doc-001",
+          "scenario": "You are driving and get stopped by police for a check.",
+          "subquestions": [
+            {
+              "text": "You must be able to identify yourself and show you are entitled to drive.",
+              "answer": true,
+              "explanation": "Drivers must be able to establish identity and driving entitlement on request."
+            }
+          ]
+        },
+        {
+          "id": "doc-002",
+          "scenario": "Your car is required to have valid third-party liability insurance.",
+          "subquestions": [
+            {
+              "text": "Driving without mandatory liability insurance is illegal.",
+              "answer": true,
+              "explanation": "Mandatory liability insurance is a legal requirement for operating a vehicle."
+            }
+          ]
+        },
+        {
+          "id": "doc-003",
+          "scenario": "You have modified or replaced key details of your vehicle.",
+          "subquestions": [
+            {
+              "text": "Significant changes may need to be registered with authorities.",
+              "answer": true,
+              "explanation": "Certain vehicle changes require re-registration or approval."
+            }
+          ]
+        },
+        {
+          "id": "doc-004",
+          "scenario": "You lend your car to a friend who is not insured to drive it.",
+          "subquestions": [
+            {
+              "text": "The driver must be covered by valid insurance to drive legally.",
+              "answer": true,
+              "explanation": "Driving without valid insurance cover is illegal."
+            }
+          ]
+        },
+        {
+          "id": "doc-005",
+          "scenario": "You are involved in a minor collision with another car.",
+          "subquestions": [
+            {
+              "text": "You should exchange details with the other driver.",
+              "answer": true,
+              "explanation": "Exchanging identity and insurance details is required after a collision."
+            }
+          ]
+        },
+        {
+          "id": "doc-006",
+          "scenario": "Your vehicle inspection (syn) is overdue.",
+          "subquestions": [
+            {
+              "text": "Driving with an overdue mandatory inspection can be an offence.",
+              "answer": true,
+              "explanation": "Vehicles must have a valid periodic inspection where required."
+            }
+          ]
+        },
+        {
+          "id": "doc-007",
+          "scenario": "You are driving abroad within the EU with your Danish licence.",
+          "subquestions": [
+            {
+              "text": "A valid Danish/EU licence is generally recognised across the EU.",
+              "answer": true,
+              "explanation": "EU driving licences are mutually recognised within the EU."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Road signs (Færdselstavler)",
+      "questions": [
+        {
+          "id": "sign-004",
+          "scenario": "You see a triangular sign with a red border showing two children.",
+          "subquestions": [
+            {
+              "text": "It warns that children may be present, e.g. near a school.",
+              "answer": true,
+              "explanation": "This warning sign flags likely child pedestrians ahead."
+            }
+          ]
+        },
+        {
+          "id": "sign-005",
+          "scenario": "You see a round sign with a red border and a white horizontal bar (no entry).",
+          "subquestions": [
+            {
+              "text": "It means you must not enter in that direction.",
+              "answer": true,
+              "explanation": "The no-entry sign prohibits entry from that direction."
+            }
+          ]
+        },
+        {
+          "id": "sign-006",
+          "scenario": "You see a round blue sign showing a bicycle.",
+          "subquestions": [
+            {
+              "text": "It marks a compulsory cycle path for cyclists.",
+              "answer": true,
+              "explanation": "Blue round signs give mandatory instructions; this designates a cycle path."
+            }
+          ]
+        },
+        {
+          "id": "sign-007",
+          "scenario": "You see a triangular sign showing a car skidding on a wet surface.",
+          "subquestions": [
+            {
+              "text": "It warns of a slippery road ahead.",
+              "answer": true,
+              "explanation": "This warning sign indicates a risk of a slippery surface."
+            }
+          ]
+        },
+        {
+          "id": "sign-008",
+          "scenario": "You see a rectangular blue sign with a white 'P'.",
+          "subquestions": [
+            {
+              "text": "It indicates a parking area.",
+              "answer": true,
+              "explanation": "The blue 'P' sign marks permitted parking."
+            }
+          ]
+        },
+        {
+          "id": "sign-009",
+          "scenario": "You see a triangular sign showing a roundabout symbol.",
+          "subquestions": [
+            {
+              "text": "It warns that a roundabout is ahead.",
+              "answer": true,
+              "explanation": "This warning sign indicates an approaching roundabout."
+            }
+          ]
+        },
+        {
+          "id": "sign-010",
+          "scenario": "You see a round red-bordered sign with a number and 't' (weight limit).",
+          "subquestions": [
+            {
+              "text": "It restricts vehicles above the stated weight.",
+              "answer": true,
+              "explanation": "Weight-limit signs prohibit vehicles exceeding the figure shown."
+            }
+          ]
+        },
+        {
+          "id": "sign-011",
+          "scenario": "You see a rectangular sign with a white arrow on blue indicating a one-way street.",
+          "subquestions": [
+            {
+              "text": "Traffic flows only in the direction of the arrow.",
+              "answer": true,
+              "explanation": "One-way signs permit travel in the indicated direction only."
+            }
+          ]
+        },
+        {
+          "id": "sign-012",
+          "scenario": "You see a triangular sign with a red border showing a pedestrian.",
+          "subquestions": [
+            {
+              "text": "It warns of a pedestrian crossing or pedestrians ahead.",
+              "answer": true,
+              "explanation": "This warning sign flags likely pedestrians ahead."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
