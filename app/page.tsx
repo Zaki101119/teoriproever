@@ -1,6 +1,7 @@
 import { Header, Footer } from "@/components/Chrome";
 import { getCategories, totalScenarios, totalOptions } from "@/lib/questions";
 import { BuyButton } from "@/components/BuyButton";
+import { HeroArt } from "@/components/HeroArt";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
     <>
       <Header />
 
-      <section className="container hero">
+      <section className="container hero hero-grid">
+        <div className="hero-copy">
         <h1>Pass the Danish theory test the first time.</h1>
         <p className="lead">
           Realistic teoriprøve scenarios in clear English, each with an instant
@@ -42,6 +44,8 @@ export default function Home() {
             <div className="lbl">topics covered</div>
           </div>
         </div>
+        </div>
+        <HeroArt />
       </section>
 
       <hr className="lane-rule" />
