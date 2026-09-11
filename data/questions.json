@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Danish Driving Theory Test - Original Question Bank",
-    "category_licence": "B (personbil)",
+    "category_licence": "B (personbil) + C (lastbil)",
     "language": "en",
     "note": "Original content authored from public Danish traffic rules (Færdselsloven) and Færdselsstyrelsen test structure. No third-party question content reused. Images/illustrations to be sourced separately (own or licensed).",
     "answer_format": "true_false_subquestions"
@@ -1614,6 +1614,254 @@
               "text": "It warns of a pedestrian crossing or pedestrians ahead.",
               "answer": true,
               "explanation": "This warning sign flags likely pedestrians ahead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Category C — Vehicle dimensions & weight (Mål og vægt)",
+      "questions": [
+        {
+          "id": "c-dim-001",
+          "scenario": "You are driving a large lorry (Category C vehicle) approaching a bridge with a posted height limit lower than your vehicle.",
+          "subquestions": [
+            {
+              "text": "You must not pass under the bridge and should find an alternative route.",
+              "answer": true,
+              "explanation": "Exceeding a posted height limit risks a serious collision with the structure; take another route."
+            },
+            {
+              "text": "You may pass slowly if you think there is probably enough room.",
+              "answer": false,
+              "explanation": "Guessing clearance is never acceptable; the posted limit is binding."
+            }
+          ]
+        },
+        {
+          "id": "c-dim-002",
+          "scenario": "Your lorry is loaded close to its maximum permitted total weight.",
+          "subquestions": [
+            {
+              "text": "Braking distance is longer than for a lighter or empty vehicle.",
+              "answer": true,
+              "explanation": "Greater mass increases stopping distance significantly; leave more room."
+            },
+            {
+              "text": "A fully loaded lorry stops in the same distance as an empty one.",
+              "answer": false,
+              "explanation": "Heavier loads mean longer braking distances."
+            }
+          ]
+        },
+        {
+          "id": "c-dim-003",
+          "scenario": "You need to distribute cargo in the load area of your lorry.",
+          "subquestions": [
+            {
+              "text": "Load should be secured and distributed so it does not shift or overload an axle.",
+              "answer": true,
+              "explanation": "Proper load distribution and securing prevents instability and axle overload."
+            }
+          ]
+        },
+        {
+          "id": "c-dim-004",
+          "scenario": "A weight limit sign on a road shows a figure below your lorry's total weight.",
+          "subquestions": [
+            {
+              "text": "You must not use that road with your vehicle.",
+              "answer": true,
+              "explanation": "Weight-limit signs legally prohibit vehicles above the stated figure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Category C — Load securing (Fastgørelse af gods)",
+      "questions": [
+        {
+          "id": "c-load-001",
+          "scenario": "You are carrying heavy steel pipes on a flatbed.",
+          "subquestions": [
+            {
+              "text": "The load must be secured against sliding, rolling and tipping.",
+              "answer": true,
+              "explanation": "Loads must be restrained in all directions to prevent movement in transit."
+            }
+          ]
+        },
+        {
+          "id": "c-load-002",
+          "scenario": "You notice one of your load straps is frayed and worn.",
+          "subquestions": [
+            {
+              "text": "You should replace it before relying on it to secure a load.",
+              "answer": true,
+              "explanation": "Damaged securing equipment can fail; replace it before use."
+            }
+          ]
+        },
+        {
+          "id": "c-load-003",
+          "scenario": "Your cargo is lighter than the vehicle's capacity but tall and narrow.",
+          "subquestions": [
+            {
+              "text": "A high centre of gravity increases the risk of tipping in bends.",
+              "answer": true,
+              "explanation": "Tall loads raise the centre of gravity and reduce stability in corners."
+            },
+            {
+              "text": "Only heavy loads affect stability, not tall ones.",
+              "answer": false,
+              "explanation": "Height and centre of gravity matter as much as weight for stability."
+            }
+          ]
+        },
+        {
+          "id": "c-load-004",
+          "scenario": "You are unsure whether your load exceeds the vehicle's rated axle loads.",
+          "subquestions": [
+            {
+              "text": "You should check axle loads, as overloading an axle is an offence and unsafe.",
+              "answer": true,
+              "explanation": "Axle load limits must be respected, not just total weight."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Category C — Driving & rest times (Køre- og hviletid)",
+      "questions": [
+        {
+          "id": "c-rest-001",
+          "scenario": "You have been driving a lorry for several hours and are approaching the legal daily driving limit.",
+          "subquestions": [
+            {
+              "text": "You must take the required breaks and rest periods set by the rules.",
+              "answer": true,
+              "explanation": "Professional driving-time rules require breaks and daily/weekly rest to prevent fatigue."
+            },
+            {
+              "text": "You can keep driving as long as you feel alert.",
+              "answer": false,
+              "explanation": "Rest rules are mandatory regardless of how alert you feel."
+            }
+          ]
+        },
+        {
+          "id": "c-rest-002",
+          "scenario": "Your vehicle is fitted with a tachograph.",
+          "subquestions": [
+            {
+              "text": "The tachograph records driving time and must be used correctly.",
+              "answer": true,
+              "explanation": "Tachographs log driving/rest time and must be operated as required by law."
+            }
+          ]
+        },
+        {
+          "id": "c-rest-003",
+          "scenario": "You feel drowsy but are close to your destination.",
+          "subquestions": [
+            {
+              "text": "You should stop and rest rather than risk driving a large vehicle while tired.",
+              "answer": true,
+              "explanation": "Fatigue in a heavy vehicle is especially dangerous; rest before continuing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Category C — Large vehicle handling (Manøvrering)",
+      "questions": [
+        {
+          "id": "c-hand-001",
+          "scenario": "You are turning right at a junction in a long lorry.",
+          "subquestions": [
+            {
+              "text": "You must account for the rear wheels cutting in (off-tracking) toward the kerb.",
+              "answer": true,
+              "explanation": "Long vehicles' rear wheels follow a tighter path; watch for cyclists and the kerb."
+            },
+            {
+              "text": "A lorry turns exactly like a car with no extra room needed.",
+              "answer": false,
+              "explanation": "Long vehicles need extra room and swing differently when turning."
+            }
+          ]
+        },
+        {
+          "id": "c-hand-002",
+          "scenario": "You are reversing a large vehicle where your mirrors leave blind areas.",
+          "subquestions": [
+            {
+              "text": "You should use a banksman/observer or get out and check if unsure.",
+              "answer": true,
+              "explanation": "Large blind zones when reversing call for extra checks or a spotter."
+            }
+          ]
+        },
+        {
+          "id": "c-hand-003",
+          "scenario": "You are driving a high-sided lorry in strong crosswinds.",
+          "subquestions": [
+            {
+              "text": "You should reduce speed and grip the wheel firmly as wind can push the vehicle.",
+              "answer": true,
+              "explanation": "High-sided vehicles are strongly affected by crosswinds; slow and stay alert."
+            }
+          ]
+        },
+        {
+          "id": "c-hand-004",
+          "scenario": "You approach a steep downhill gradient with a loaded lorry.",
+          "subquestions": [
+            {
+              "text": "You should select a lower gear and use engine braking to avoid overheating the brakes.",
+              "answer": true,
+              "explanation": "Engine braking on descents prevents brake fade in heavy vehicles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Category C — Professional responsibilities (Erhvervsansvar)",
+      "questions": [
+        {
+          "id": "c-pro-001",
+          "scenario": "You are about to set off and perform a walk-around check of the lorry.",
+          "subquestions": [
+            {
+              "text": "Daily checks of tyres, lights, brakes and load are part of a driver's responsibility.",
+              "answer": true,
+              "explanation": "Pre-drive checks on a commercial vehicle are a core safety duty."
+            }
+          ]
+        },
+        {
+          "id": "c-pro-002",
+          "scenario": "You discover a defect that affects the lorry's roadworthiness before a trip.",
+          "subquestions": [
+            {
+              "text": "You should not drive until the defect is properly addressed.",
+              "answer": true,
+              "explanation": "Driving a large vehicle with a safety-critical defect is unsafe and unlawful."
+            }
+          ]
+        },
+        {
+          "id": "c-pro-003",
+          "scenario": "Your lorry emits visible black smoke and may exceed emissions rules.",
+          "subquestions": [
+            {
+              "text": "You should have it checked, as commercial vehicles must meet emissions standards.",
+              "answer": true,
+              "explanation": "Excess emissions can breach standards and indicate a fault needing attention."
             }
           ]
         }
